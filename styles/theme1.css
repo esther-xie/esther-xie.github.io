@@ -1,0 +1,304 @@
+h2{
+  font-family: "Minion Pro", serif;
+  font-size: 24pt;
+  margin: 40px 0;
+  text-align: center;
+}
+
+h3{
+  font-family: "Roadgeek 2005 Series 2B", sans-serif;
+  font-size: 32pt;
+  margin: 60px 0;
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
+}
+
+p{
+  font-family: "Minion Pro", serif;
+}
+
+/* div{
+  display: flex;
+  flex-direction:row;
+} */
+
+/* header */
+.header{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.menubutt{
+  font-family: "Minion Pro", serif;
+  margin: 20px 50px;
+  padding: 2px;
+  background-color: white;
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+}
+.menubutt1{
+  background-color: black;
+  color: white;
+}
+
+nav ul{
+  padding-left: 0;
+}
+
+nav ul li{
+  display: inline-block;
+  font-family: "Minion Pro", serif;
+  padding: 5px 10px;
+  margin: 0 5px;
+}
+.name{
+  /* font-family: "Futura PT Light", sans-serif; */
+  font-family: "Minion Pro", sans-serif;
+  font-size: 20pt;
+  margin: 10px 50px;
+}
+
+p.citation{
+  font-style: italic;
+  font-size: 80%;
+  text-align: center;
+}
+
+a:link{
+  color: inherit;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: line-through;
+}
+a:visited{
+  color: inherit;
+}
+
+.hidden{
+  display: none;
+}
+
+/* home page */
+.container_outer div {
+  overflow: hidden;
+}
+.container_outer img {
+  width: 100%;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1%;
+}
+.homebox2{
+  flex: 1 1 33.33333%;
+  margin-right: 1%;
+}
+.container3 {
+  display: flex;
+  flex-direction: column;
+  flex: 2 1 66.66667%;
+  height: 100%;
+}
+.homebox3{
+  flex: 0 1 50%;
+}
+.container4 {
+  flex: 0 1 50%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 1%;
+}
+.homebox4{
+  flex: 0 1 50%;
+}
+.homebox5{
+  margin-left: 1%;
+  flex: 0 1 50%;
+}
+.homebox1, .homebox2, .homebox3, .homebox4, .homebox5{
+  position: relative;
+}
+.homehover{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+.hovertext{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin: 0;
+}
+.imghover{
+  opacity: 50%;
+}
+
+/* about page */
+.city{
+  margin: 7.5px 200px;
+  text-decoration: underline;
+}
+.about{
+  margin: 15px 250px;
+  flex-direction: column;
+}
+.abouttext{
+  margin: 20px 150px;
+}
+.memory{
+  width: 200px;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* design list page and research list page*/
+.designbackground{
+  position: static;
+  padding-top: 150px;
+  padding-bottom: 250px;
+  background-image: url("../images/background1.png");
+  background-position: center;
+  background-size: cover;
+}
+.researchbackground{
+  position: static;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: url("../images/background2.png");
+  background-position: center;
+  background-size: cover;
+}
+.designlist{
+  width: 400px;
+  height: 200px;
+  margin: 0 auto;
+  font-family: "Minion Pro", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.projectname{
+  display: block;
+  padding: 5px;
+  text-align: center;
+}
+.designdescript{
+  font-size: 0.85em;
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* project pages */
+p.project-info{
+  text-align: center;
+  margin:0 0;
+  padding:0 0;
+}
+.texts{
+  margin: 50px 300px;
+  text-align: justify;
+}
+/*.texts2{
+  margin: 50px 250px;
+  text-align: justify;
+}*/
+.texts3{
+  margin: 10px 400px;
+  text-align: justify;
+}
+.projectimg{
+  max-width: 100%;
+  display: block;
+  margin:0 auto;
+  padding-top: 40px;
+}
+.imgtitle{
+  display: block;
+  text-align: center;
+  font-size: 1.25em;
+}
+.img_row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.img_row2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.imgcap{
+  flex-direction: column;
+}
+.largeimg{
+  max-width: 100%;
+}
+
+/* mobolie version */
+@media (max-width: 900px) {
+  /* nav bar */
+  .menubutt{
+    margin: 15px 20px;
+  }
+  .menubutt1{
+    height: 20px;
+  }
+  .name{
+    margin: 10px 20px;
+  }
+  nav ul{
+    width: 100px;
+  }
+  /* home */
+  .hovertext{
+    font-size: 2em;
+  }
+  /* about */
+  .abouttext{
+    margin: 10% 20%;
+  }
+  .city{
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .about{
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  /*project pages */
+  h3{
+    top: 40px;
+  }
+  .texts{
+    margin: 10% 10%;
+  }
+  .texts2{
+    margin: 10% 10%;
+  }
+  .texts3{
+    margin: 5% 15%;
+  }
+  img{
+    max-width: 100%;
+  }
+  .imgtitle{
+    font-size: 90%;
+  }
+}

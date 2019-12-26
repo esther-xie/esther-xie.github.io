@@ -1,0 +1,110 @@
+body{
+  background-color: #ffeded;
+}
+
+h1{
+  color: #501f9f;
+  font-family: "Futura PT Light", sans-serif;
+  font-size: 36pt;
+  margin: 20px 230px;
+}
+
+h2{
+  color: #501f9f;
+  font-family: "Futura PT Medium", sans-serif;
+  font-size: 36pt;
+  margin: 30px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3{
+  color: #501f9f;
+  font-family: "Futura PT Medium", sans-serif;
+  font-size: 36pt;
+  margin: 40px 0;
+  text-align: center;
+}
+
+p{
+  color: #501f9f;
+  font-family: "Futura PT light", serif;
+  font-size: 18px;
+  margin: 40px 200px;
+}
+
+p.citation{
+  font-style: italic;
+  font-size: 14px;
+  text-align: center;
+}
+
+p.project-info{
+  text-align: center;
+  margin:0 0;
+  padding:0 0;
+}
+
+img{
+  display: block;
+  margin: auto;
+}
+
+img.home{
+  width:30%;
+  height:30%;
+  margin:50px auto;
+}
+
+ul li{
+  color: #501f9f;
+  font-family: "Futura PT light", serif;
+  font-size: 14pt;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 0 70px;
+}
+
+nav{
+  background-color: white;
+  text-align: center;
+  padding: 5px 20px;
+}
+
+p.caption{
+  font-family: "Futura PT Medium", serif;
+  text-transform: uppercase;
+  font-size: 20pt;
+}
+
+div{
+  display: flex;
+  flex-direction:row;
+  margin: 20px auto;
+}
+
+div.thumb{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex-grow: 1;
+}
+
+img.thumbnail{
+  width: 600px;
+  height: 600px;
+}
+
+p.citation{
+  margin:0 100px;
+  font-style: italic;
+}
+
+a:link{
+  text-decoration: none;
+  color:inherit;
+}
