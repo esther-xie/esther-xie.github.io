@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Minion Pro";
+  src: url("../fonts/MinionPro-Regular.otf");
+}
+
+@font-face {
+  font-family: "Roadgeek 2005 Series 2B";
+  src: url("../fonts/roadgeek\ 2005\ series\ 2b.ttf");
+}
+
 h2{
   font-family: "Minion Pro", serif;
   font-size: 24pt;
