@@ -141,23 +141,15 @@ a:visited{
 }
 .homehover{
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  text-align: center;
-}
-.hovertext{
-  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+}
+.hovertext{
   margin: 0;
 }
 .imghover{
-  opacity: 50%;
+  opacity: 0.5;
 }
 
 /* about page */
