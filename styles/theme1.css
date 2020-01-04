@@ -252,6 +252,11 @@ p.project-info{
   width: 33.33333%;
   height: auto;
 }
+.img_row2 .col_half {
+  flex: 1 1 auto;
+  width: 50%;
+  height: auto;
+}
 
 .imgcap{
   flex-direction: column;
