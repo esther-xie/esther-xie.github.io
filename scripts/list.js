@@ -35,6 +35,13 @@ $(document).ready(function() {
     $("#designdescript5").addClass("hidden");
   });
 
+  $("#design6").mouseover(function() {
+    $("#designdescript6").removeClass("hidden");
+  });
+  $("#design6").mouseout(function() {
+    $("#designdescript6").addClass("hidden");
+  });
+
   $("#research1").mouseover(function() {
     $("#researchdescript1").removeClass("hidden");
   });
