@@ -1,5 +1,12 @@
 $(document).ready(function() {
 
+  $("#design0").mouseover(function() {
+    $("#designdescript0").removeClass("hidden");
+  });
+  $("#design0").mouseout(function() {
+    $("#designdescript0").addClass("hidden");
+  });
+
   $("#design1").mouseover(function() {
     $("#designdescript1").removeClass("hidden");
   });
