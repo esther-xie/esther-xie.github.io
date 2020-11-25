@@ -56,10 +56,13 @@ nav ul li{
   font-family: "Minion Pro", serif;
   padding: 5px 10px;
   margin: 0 5px;
+  position: relative;
 }
 
 .dropdown {
   position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   border-top-width: 0px;
   background-color: white;
   display: flex;
