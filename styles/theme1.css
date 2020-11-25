@@ -95,7 +95,7 @@ a:link{
   text-decoration: none;
 }
 a:hover{
-  text-decoration: line-through;
+  text-decoration: line-through !important;
 }
 a:visited{
   color: inherit;
@@ -120,6 +120,9 @@ a:visited{
 }
 .ind1_img{
   padding: 5% 10%;
+}
+.homelink{
+  text-decoration: underline !important;
 }
 
 /* .container_outer div {
@@ -176,14 +179,21 @@ a:visited{
 } */
 
 /* about page */
+.about_all{
+  margin: 100px;
+}
 .about1{
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
-
+.about1_txt{
+  padding: 5% 10%;
+}
 .about_city{
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 .about_city_txt{
   text-align: center;
