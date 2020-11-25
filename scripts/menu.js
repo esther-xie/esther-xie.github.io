@@ -1,12 +1,22 @@
 $(document).ready(function() {
 
-  $(".menubutt").on("click", function () {
-    if ($(".navbar").hasClass("hidden", true)){
-      $(".navbar").removeClass("hidden");
-      $(".menubutt").addClass("menubutt1");
+  $("#menud").on("click", function () {
+    if ($("#dropdownd").hasClass("hidden", true)){
+      $("#dropdownd").removeClass("hidden");
+      $("#menud").addClass("clicked");
     } else{
-      $(".navbar").addClass("hidden");
-      $(".menubutt").removeClass("menubutt1")
+      $("#dropdownd").addClass("hidden");
+      $("#menud").removeClass("clicked");
+    }
+  });
+
+  $("#menur").on("click", function () {
+    if ($("#dropdownr").hasClass("hidden", true)){
+      $("#dropdownr").removeClass("hidden");
+      $('#menur').addClass("clicked");
+    } else{
+      $("#dropdownr").addClass("hidden");
+      $('#menur').removeClass("clicked");
     }
   });
 });

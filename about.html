@@ -9,23 +9,33 @@
   <script src="scripts/about.js" type="text/javascript"></script>
   <script src="scripts/menu.js" type="text/javascript"></script>
 
-</head>
-<body>
+  </head>
+  <body>
   <div class="header">
-    <p class="menubutt"> menu </p>
-    <nav class="navbar hidden">
+    <h1 class="name"> <a href = "index.html"> Esther XIE </a> </h1>
+    <nav class="navbar">
       <ul>
-        <li> <a href = "index.html"> Home </a> </li>
-        <li> <a href = "landscape.html"> Design </a> </li>
-        <li> <a href = "urbanplanning.html"> Research </a> </li>
-        <li> <a href = "construction.htm"> Construction </a> </li>
-        <li> <a href = "about.html"> About </a> </li>
+        <li> <a href = "index.html"> home </a> </li>
+        <li id="menud"> design.
+          <ul id="dropdownd" class="dropdown hidden">
+            <li><a href="randalls.html"> wetlands </a></li>
+            <li><a href="sfwaterfront.html"> playground </a></li>
+            <li><a href="farming.html"> urban farm </a></li>
+          </ul> </li>
+        <li id="menur"> research.
+          <ul id="dropdownr" class="dropdown hidden">
+            <li><a href="thesis.html"> fluidity </a></li>
+            <li><a href="sixfeet.html"> COVID-19 </a></li>
+            <li><a href="moss.html"> moss </a></li>
+          </ul> </li>
+        <li> <a href = "campus.html"> practice </a> </li>
+        <li> <a href = "about.html"> about </a> </li>
       </ul>
     </nav>
-    <h1 class="name"> Esther XIE </h1>
   </div>
 
-  <p class="abouttext"> <em> Esther Xie, </em> or 谢雪桢, is a student pursuing concurrent degree of landscape architecture and urban and regional studies in Cornell University.</p>
+  <p class="abouttext"> <em> Esther Xie, </em> or 谢雪桢 (Xie Xue Zhen), is a designer with a concurrent degree in landscape architecture and urban and regional studies from Cornell University.
+.</p>
 
   <p class="abouttext"> Click on the city to see details. </p>
   <p id="ningbo" class="city"> Ningbo, China </p>
@@ -61,20 +71,6 @@
     <p> SWA Student Summer program, summer 2018 </p>
     <img src="images/sanfrancisco.png" alt="San Francisco" class="memory">
   </div>
-
-<!--
-  <p id="convid" class="city"> COVID-19 </p>
-  <div id="convid1" class="about">
-  <p> In fall 2019, I took a class called American Nightmare: Horror Films and Fictions to fulfill the college requirement of writing course. During that process, I analyzed several zombie media, including the novel <em>Severance</em> by Ling Ma and <em>Day of the Dead</em> (1985) directed by George A. Romero, and composed an essay discussing the idea of postmodernism reflected through zombie media. The essay concluded that through the breakdown of linear temporality and the destruction of the boundary between human and nonhuman, zombie media question the basis of modernism such as social progress and the binary of human and nature. </p>
-  <p> The outbreak of COVID-19 and its consequent interruption of my life provides me an opportunity to revisit the essay I wrote before, as my life has become painfully parallel to the apocalyptic world portrayed in zombie media. On March 10, 2020, Cornell University announced that all classes would be transitioned to virtual instruction after spring break. On March 13, Cornell University decided to suspend all classes for two weeks until spring break, which leaves me three weeks of free time without any purposes. The constant changing plans by the administration influenced by the epidemic completely destructs our expectation of the future, thus leaves many disoriented in the fragmented temporality. Without routines established by course schedules and ability to establish any forward-looking plans, the temporality becomes unstable and unreliable. </p>
-  <p> This morning as I was about to clean my dishes after brunch, I looked at the seat at dining table where my roommate had always been working on her thesis in the past two months. I found it really hard for me to locate those moments in time. I realized that the intensity of events taking place in such short range of time has exhausted my perception of time. My roommate has moved out shortly after the first announcement from university and she will no longer come back. Yet the image of her sitting by the desk is so persistent and seems to be undisrupted by those events. I realized that although the unpredictable future and the stagnant past are no longer connected, the space remains unchanged. It is through the perception of the continuous space that those past moments become so tangible to me, at present and in the future. It is at this turbulent time I decide to examine my personal experience using my previous study on zombie literature. Although by no means I am living in a post-apocalyptic world, I am hoping to find a way to cope with the disruption by figuring out the cause and consequence of my disorientation. </p>
-  <p> The stories of both <em>Day of the Dead</em> and <em>Severance</em> happen with post-apocalyptic settings, where the end of collective has already passed in time. Apocalypse creates a temporal break between the past of the collective and the present of survivors. As Latour asserts, “the moderns indeed sense time as an irreversible arrow, as capitalization, as progress,” and “everything that passes is eliminated for ever” (Latour 69). Survivors living in the post-apocalypse world find themselves deviated from the linear temporality they are familiar of. They experience fragmented temporality where both past and future seem to be inaccessible to reach. The conversion of temporality, something that is concealed but familiar to human, raise a feeling of uncanny, as “a hidden, familiar thin that has undergone repression and then emerged from it” (Freud 15). To overcome the uncanniness, characters employ different strategies to situate themselves in the post apocalypse. </p>
-  <p> The protagonist in <em>Day of the Dead</em>, Dr. Sarah Bowman (Lori Cardille), uses the strategy of connecting the present to the future, where zombies can be reversed into humans, and society of the past returns to function. Sarah’s plan is eventually terminated by internal conflicts among the survivors. She, along with other two characters, escapes to an isolated island with seemingly eternal serenity. However, the last scene of the film shows she takes out her self-made calendar, and marks off November 4th. The film thereby ends with an ongoing pursuit of unapproachable future. </p>
-  <p> <em>Severance</em> portrayed a more disrupted temporality through Shen Fever, an epidemic that cause most people on earth to lose conscious and repeat certain behaviors. As Shen Fever has disrupted the continuation of temporality and created infinite loops, the protagonist finds the past overlap with the present. The tangled temporality is articulated through the storytelling of the book, where stories from the past interweave with the present. Disoriented in the disordered temporalities, characters in the book take a nostalgic approach, trying to attach themselves to the past. However, locating “the past” in time has become an impossible task, as the past is also the present. Therefore, the characters can only trace their “past” through spatiality, and locating themselves to the place he/she has attached to, which simultaneously makes them the victims of Shen Fever. The fact that Candace, the protagonist, remained immune to the fever implies her struggle to find a place with emotional attachment.
- </p>
- <p> tbc. 3/14/2020. Ithaca. </p>
-</div>
--->
 
 </body>
 </html>
