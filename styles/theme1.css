@@ -47,8 +47,10 @@ p{
 }
 
 nav ul{
+  display: inline-block;
   padding-left: 0;
   align-items: center;
+  justify-content: center;
 }
 
 nav ul li{
@@ -79,6 +81,7 @@ nav .dropdown li {
 }
 
 .name{
+  display: inline-block;
   font-family: "Roadgeek 2005 Series 2B", sans-serif;
   font-size: 24pt;
   margin: 10px 50px;
@@ -183,13 +186,11 @@ a:visited{
   margin: 100px;
 }
 .about1{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.about1_txt{
   padding: 5% 10%;
+  align-items: center;
+  text-align: center;
 }
+
 .about_city{
   display: flex;
   flex-direction: row;
