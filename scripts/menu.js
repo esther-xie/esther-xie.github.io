@@ -4,6 +4,8 @@ $(document).ready(function() {
     if ($("#dropdownd").hasClass("hidden", true)){
       $("#dropdownd").removeClass("hidden");
       $("#menud").addClass("clicked");
+      $("#dropdownr").addClass("hidden");
+      $('#menur').removeClass("clicked");
     } else{
       $("#dropdownd").addClass("hidden");
       $("#menud").removeClass("clicked");
@@ -14,6 +16,8 @@ $(document).ready(function() {
     if ($("#dropdownr").hasClass("hidden", true)){
       $("#dropdownr").removeClass("hidden");
       $('#menur').addClass("clicked");
+      $("#dropdownd").addClass("hidden");
+      $("#menud").removeClass("clicked");
     } else{
       $("#dropdownr").addClass("hidden");
       $('#menur').removeClass("clicked");

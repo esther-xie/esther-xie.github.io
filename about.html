@@ -1,122 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta charset="UTF-8">
   <title>Esther XIE</title>
-  <link rel="stylesheet" type="text/css" href="styles/theme1.css"/>
+  <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" rel="stylesheet">
+  <link href="styles/theme1.css" rel="stylesheet" type="text/css"/>
   <script src="scripts/jquery-3.4.1.min.js" type="text/javascript"></script>
+  <script crossorigin="anonymous" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="scripts/about.js" type="text/javascript"></script>
   <script src="scripts/menu.js" type="text/javascript"></script>
 
   </head>
   <body>
-  <div class="header">
-    <h1 class="name"> <a href = "index.html"> Esther XIE </a> </h1>
-    <nav class="navbar">
-      <ul>
-        <li> <a href = "index.html"> home </a> </li>
+  <div class="navbar navbar-expand-md navbar-light bg-white align-items-center" id="header">
+    <div class="col-md-2 d-flex flex-row align-items-center">
+      <h1 class="name"><a href="index.html"> Esther XIE </a></h1>
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+
+    <nav class="col-md-8 navbar-collapse collapse flex-row justify-content-center" id="navbar-links">
+      <ul class="m-0">
+        <li><a href="index.html"> home </a></li>
         <li id="menud"> design.
-          <ul id="dropdownd" class="dropdown hidden">
+          <ul class="dropdown hidden" id="dropdownd">
             <li><a href="randalls.html"> wetlands </a></li>
             <li><a href="sfwaterfront.html"> playground </a></li>
             <li><a href="farming.html"> urban farm </a></li>
-          </ul> </li>
+          </ul>
+        </li>
         <li id="menur"> research.
-          <ul id="dropdownr" class="dropdown hidden">
+          <ul class="dropdown hidden" id="dropdownr">
             <li><a href="thesis.html"> fluidity </a></li>
             <li><a href="sixfeet.html"> COVID-19 </a></li>
             <li><a href="moss.html"> moss </a></li>
-          </ul> </li>
-        <li> <a href = "campus.html"> practice </a> </li>
-        <li> <a href = "about.html"> about </a> </li>
+          </ul>
+        </li>
+        <li><a href="campus.html"> practice </a></li>
+        <li><a href="about.html"> about </a></li>
       </ul>
     </nav>
   </div>
 
-  <div class="about_all">
-    <div class="about1">
-      <p class="abouttext"> Esther Xie, or 谢雪桢 (Xie Xue Zhen), is a designer with a concurrent degree in landscape architecture and urban and regional studies from Cornell University. </p>
-      <p class="abouttext"> Esther is an urban enthusiast. She is driven to identify social problems through spatial configurations and to navigate the messy entanglements in urban environments. </p>
-    </div>
 
-    <div class="about_city">
-      <div class="about_city_txt">
-        <p> NINGBO </p>
-        <p> 1998 </p>
-        <p> Born. </p>
+  <div class="container">
+    <div class="about_all">
+      <div class="row">
+        <div class="col-12">
+          <div class="about1">
+            <p class="abouttext"> Esther Xie, or 谢雪桢 (Xie Xue Zhen), is a designer with a concurrent degree in landscape
+              architecture and urban and regional studies from Cornell University. </p>
+            <p class="abouttext"> Esther is an urban enthusiast. She is driven to identify social problems through
+              spatial
+              configurations and to navigate the messy entanglements in urban environments. </p>
+          </div>
+        </div>
       </div>
-      <div class="about_city_img">
-        <img src="images/self.jpg" alt="Esther">
-      </div>
-    </div>
 
-    <div class="about_city">
-      <div class="about_city_txt">
-        <p> ITHACA </p>
-        <p> 2015-2020 </p>
-        <p> Undergraduate study at Cornell University. </p>
+      <div class="row align-items-center text-center my-5">
+        <div class="col-6">
+          <p> NINGBO </p>
+          <p> 1998 </p>
+          <p> Born. </p>
+        </div>
+        <div class="col-6">
+          <img alt="Esther" class="img-fluid" src="images/self.jpg">
+        </div>
       </div>
-      <div class="about_city_img">
-        <img src="images/ithaca.jpg" alt="Ithaca" class="memory">
-      </div>
-    </div>
 
-    <div class="about_city">
-      <div class="about_city_txt">
-        <p> COPENHAGEN </p>
-        <p> Aug. - Dec. 2017</p>
-        <p> DIS, Study abroad. </p>
+      <div class="row align-items-center text-center my-5">
+        <div class="col-6">
+          <p> ITHACA </p>
+          <p> 2015-2020 </p>
+          <p> Undergraduate study at Cornell University. </p>
+        </div>
+        <div class="col-6">
+          <img alt="Ithaca" class="memory img-fluid" src="images/ithaca.jpg">
+        </div>
       </div>
-      <div class="about_city_img">
-        <img src="images/cp.jpg" alt="Copenhagen" class="memory">
-      </div>
-    </div>
 
-    <div class="about_city">
-      <div class="about_city_txt">
-        <p> ROME </p>
-        <p> Jan. - May 2018 </p>
-        <p> Cornell in Rome. </p>
+      <div class="row align-items-center text-center my-5">
+        <div class="col-6">
+          <p> COPENHAGEN </p>
+          <p> Aug. - Dec. 2017</p>
+          <p> DIS, Study abroad. </p>
+        </div>
+        <div class="col-6">
+          <img alt="Copenhagen" class="memory img-responsive" src="images/cp.jpg">
+        </div>
       </div>
-      <div class="about_city_img">
-        <img src="images/rome.jpg" alt="Rome" class="memory">
-      </div>
-    </div>
 
-    <div class="about_city">
-      <div class="about_city_txt">
-        <p> SAN FRANCISCO </p>
-        <p> June - Aug. 2018 </p>
-        <p> SWA Group Summer Program. </p>
+      <div class="row align-items-center text-center my-5">
+        <div class="col-6">
+          <p> ROME </p>
+          <p> Jan. - May 2018 </p>
+          <p> Cornell in Rome. </p>
+        </div>
+        <div class="col-6">
+          <img alt="Rome" class="memory img-responsive" src="images/rome.jpg">
+        </div>
       </div>
-      <div class="about_city_img">
-        <img src="images/sf.png" alt="San Francisco" class="memory">
-      </div>
-    </div>
 
-    <div class="about_city">
-      <div class="about_city_txt">
-        <p> SHANGHAI </p>
-        <p> June - Aug. 2019 </p>
-        <p> Internship. </p>
+      <div class="row align-items-center text-center my-5">
+        <div class="col-6">
+          <p> SAN FRANCISCO </p>
+          <p> June - Aug. 2018 </p>
+          <p> SWA Group Summer Program. </p>
+        </div>
+        <div class="col-6">
+          <img alt="San Francisco" class="memory img-responsive" src="images/sf.png">
+        </div>
       </div>
-      <div class="about_city_img">
-        <img src="images/shanghai.jpg" alt="Shanghai" class="memory">
-      </div>
-    </div>
 
-    <div class="about_city">
-      <div class="about_city_txt">
-        <p> HONG KONG </p>
-        <p> Jan. 2020 </p>
-        <p> Undegraduate thesis. </p>
+      <div class="row align-items-center text-center my-5">
+        <div class="col-6">
+          <p> SHANGHAI </p>
+          <p> June - Aug. 2019 </p>
+          <p> Internship. </p>
+        </div>
+        <div class="col-6">
+          <img alt="Shanghai" class="memory" src="images/shanghai.jpg" id="about-shanghai">
+        </div>
       </div>
-      <div class="about_city_img">
-        <img src="images/hk.jpg" alt="Hong Kong" class="memory">
-      </div>
-    </div>
 
+      <div class="row align-items-center text-center my-5">
+        <div class="col-6">
+          <p> HONG KONG </p>
+          <p> Jan. 2020 </p>
+          <p> Undegraduate thesis. </p>
+        </div>
+        <div class="col-6">
+          <img alt="Hong Kong" class="memory img-responsive" src="images/hk.jpg">
+        </div>
+      </div>
+
+    </div>
   </div>
   <!--
   <p class="abouttext"> Click on the city to see details. </p>

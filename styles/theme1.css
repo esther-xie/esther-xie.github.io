@@ -8,14 +8,14 @@
   src: url("../fonts/roadgeek\ 2005\ series\ 2b.ttf");
 }
 
-h2{
+h2 {
   font-family: "Minion Pro", serif;
   font-size: 24pt;
   margin: 40px 0;
   text-align: center;
 }
 
-h3{
+h3 {
   font-family: "Roadgeek 2005 Series 2B", sans-serif;
   font-size: 32pt;
   margin: 60px 0;
@@ -25,7 +25,7 @@ h3{
   top: 60px;
 }
 
-p{
+p {
   font-family: "Minion Pro", serif;
 }
 
@@ -35,15 +35,15 @@ p{
 } */
 
 /* header */
-.header{
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  background-color: white;
+#header {
+  z-index: 1;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  z-index: 1;
+}
+
+#header .name {
+  white-space: nowrap;
 }
 
 nav ul{
@@ -84,7 +84,7 @@ nav .dropdown li {
   display: inline-block;
   font-family: "Roadgeek 2005 Series 2B", sans-serif;
   font-size: 24pt;
-  margin: 10px 50px;
+  margin: 5px 0px;
 }
 
 p.citation{
@@ -109,20 +109,14 @@ a:visited{
 }
 
 /* home page */
-.ind1{
-  display: flex;
-  flex-direction: row;
-  flex: 1 2;
-  max-height: 100%;
-  margin: 50px;
+
+#index-txt {
+  padding: 6%;
   align-items: center;
 }
-.ind1_txt{
-  padding: 100px;
-  align-items: center;
-}
-.ind1_img{
-  padding: 5% 10%;
+
+#index-img {
+  padding: 5%;
 }
 .homelink{
   text-decoration: underline !important;
@@ -183,22 +177,25 @@ a:visited{
 
 /* about page */
 .about_all{
-  margin: 100px;
+  margin: 100px 0px;
 }
 .about1{
-  padding: 5% 10%;
-  align-items: center;
-  text-align: center;
+  padding: 5% 0;
 }
 
-.about_city{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.img-responsive {
+  width: 100%;
+  height: auto;
 }
-.about_city_txt{
-  text-align: center;
-}
+
+/*.about_city{*/
+/*  display: flex;*/
+/*  flex-direction: row;*/
+/*  align-items: center;*/
+/*}*/
+/*.about_city_txt{*/
+/*  text-align: center;*/
+/*}*/
 
 /*
 .city{
@@ -219,6 +216,10 @@ a:visited{
   margin-bottom: 20px;
 } */
 
+#about-shanghai {
+  width: 70%;
+}
+
 /* project pages */
 p.project-info{
   font-size: 90%;
@@ -227,7 +228,7 @@ p.project-info{
   padding:0 0;
 }
 .texts{
-  margin: 50px 300px;
+  margin: 50px 5%;
   text-align: justify;
 }
 /*.texts2{
@@ -235,7 +236,7 @@ p.project-info{
   text-align: justify;
 }*/
 .texts3{
-  margin: 10px 400px;
+  margin: 10px 10%;
   text-align: justify;
 }
 .projectimg{
@@ -279,53 +280,53 @@ p.project-info{
 }
 
 /* mobolie version */
-@media (max-width: 900px) {
-  /* nav bar */
-  .menubutt{
-    margin: 15px 20px;
-  }
-  .menubutt1{
-    height: 20px;
-  }
-  .name{
-    margin: 10px 20px;
-  }
-  nav ul{
-    width: 100px;
-  }
-  /* home */
-  .hovertext{
-    font-size: 2em;
-  }
-  /* about */
-  .abouttext{
-    margin: 10% 20%;
-  }
-  .city{
-    margin-left: 20%;
-    margin-right: 20%;
-  }
-  .about{
-    margin-left: 20%;
-    margin-right: 20%;
-  }
-  /*project pages */
-  h3{
-    top: 40px;
-  }
-  .texts{
-    margin: 10% 10%;
-  }
-  .texts2{
-    margin: 10% 10%;
-  }
-  .texts3{
-    margin: 5% 15%;
-  }
-  img{
-    max-width: 100%;
-  }
-  .imgtitle{
-    font-size: 90%;
-  }
-}
+/*@media (max-width: 900px) {*/
+/*  !* nav bar *!*/
+/*  .menubutt{*/
+/*    margin: 15px 20px;*/
+/*  }*/
+/*  .menubutt1{*/
+/*    height: 20px;*/
+/*  }*/
+/*  .name{*/
+/*    margin: 10px 20px;*/
+/*  }*/
+/*  nav ul{*/
+/*    width: 100px;*/
+/*  }*/
+/*  !* home *!*/
+/*  .hovertext{*/
+/*    font-size: 2em;*/
+/*  }*/
+/*  !* about *!*/
+/*  .abouttext{*/
+/*    !*margin: 10% 20%;*!*/
+/*  }*/
+/*  .city{*/
+/*    margin-left: 20%;*/
+/*    margin-right: 20%;*/
+/*  }*/
+/*  .about{*/
+/*    margin-left: 20%;*/
+/*    margin-right: 20%;*/
+/*  }*/
+/*  !*project pages *!*/
+/*  h3{*/
+/*    top: 40px;*/
+/*  }*/
+/*  .texts{*/
+/*    margin: 10% 10%;*/
+/*  }*/
+/*  .texts2{*/
+/*    margin: 10% 10%;*/
+/*  }*/
+/*  .texts3{*/
+/*    margin: 5% 15%;*/
+/*  }*/
+/*  img{*/
+/*    max-width: 100%;*/
+/*  }*/
+/*  .imgtitle{*/
+/*    font-size: 90%;*/
+/*  }*/
+/*}*/
