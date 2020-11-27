@@ -216,6 +216,10 @@ a:visited{
   margin-bottom: 20px;
 } */
 
+#about-sf {
+  width: 60%;
+}
+
 #about-shanghai {
   width: 70%;
 }
