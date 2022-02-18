@@ -6,6 +6,8 @@ $(document).ready(function() {
       $("#menud").addClass("clicked");
       $("#dropdownr").addClass("hidden");
       $('#menur').removeClass("clicked");
+      $("#dropdownc").addClass("hidden");
+      $('#menuc').removeClass("clicked");
     } else{
       $("#dropdownd").addClass("hidden");
       $("#menud").removeClass("clicked");
@@ -18,9 +20,25 @@ $(document).ready(function() {
       $('#menur').addClass("clicked");
       $("#dropdownd").addClass("hidden");
       $("#menud").removeClass("clicked");
+      $("#dropdownc").addClass("hidden");
+      $('#menuc').removeClass("clicked");
     } else{
       $("#dropdownr").addClass("hidden");
       $('#menur').removeClass("clicked");
+    }
+  });
+
+  $("#menuc").on("click", function () {
+    if ($("#dropdownc").hasClass("hidden", true)){
+      $("#dropdownc").removeClass("hidden");
+      $('#menuc').addClass("clicked");
+      $("#dropdownd").addClass("hidden");
+      $("#menud").removeClass("clicked");
+      $("#dropdownr").addClass("hidden");
+      $('#menur').removeClass("clicked");
+    } else{
+      $("#dropdownc").addClass("hidden");
+      $('#menuc').removeClass("clicked");
     }
   });
 });
