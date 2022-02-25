@@ -221,7 +221,11 @@ a:visited{
 }
 
 #about-shanghai {
-  width: 70%;
+  width: 60%;
+}
+
+#about-gsd{
+  width: 60%;
 }
 
 /* project pages */
